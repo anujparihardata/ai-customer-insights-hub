@@ -1,0 +1,7 @@
+# Python virtual‑env
+dbt/venv/
+# VS Code settings (optional)
+.vscode/
+# Mac / Windows cruft
+.DS_Store
+Thumbs.db

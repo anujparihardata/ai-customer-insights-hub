@@ -1,0 +1,94 @@
+[0m12:15:11.479515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2AE18AC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2AE3FC5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2AA1B2810>]}
+
+
+============================== 12:15:11.509361 | 972f558d-c583-40c0-a777-ea690b259aad ==============================
+[0m12:15:11.509361 [info ] [MainThread]: Running with dbt=1.10.3
+[0m12:15:11.509361 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Anujp\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init ai_customer_insights', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:15:12.032496 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Anujp\.dbt
+[0m12:15:12.079957 [debug] [MainThread]: Starter project path: C:\Users\Anujp\documents\anuj\Data Strategy and AI\ai customer insights hub\week 1 ai customer insights\ai-customer-insights-hub\dbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m12:15:12.370752 [info ] [MainThread]: 
+Your new dbt project "ai_customer_insights" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:15:12.370752 [info ] [MainThread]: Setting up your profile.
+[0m12:20:45.748603 [info ] [MainThread]: Profile ai_customer_insights written to C:\Users\Anujp\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:20:45.766895 [debug] [MainThread]: Command `dbt init` succeeded at 12:20:45.766895 after 334.38 seconds
+[0m12:20:45.766895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2AE4BC150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2AE52EA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2AE52E690>]}
+[0m12:20:45.766895 [debug] [MainThread]: Flushing usage events
+[0m12:20:46.857023 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:22:07.812612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013CF92BC550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013CF92F3250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013CF92F31D0>]}
+
+
+============================== 12:22:07.828434 | ad703e63-0fb4-406c-9c4b-d5278bc7b78c ==============================
+[0m12:22:07.828434 [info ] [MainThread]: Running with dbt=1.10.3
+[0m12:22:07.828434 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Anujp\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:22:07.870586 [info ] [MainThread]: dbt version: 1.10.3
+[0m12:22:07.870586 [info ] [MainThread]: python version: 3.11.9
+[0m12:22:07.870586 [info ] [MainThread]: python path: C:\Users\Anujp\documents\anuj\Data Strategy and AI\ai customer insights hub\week 1 ai customer insights\ai-customer-insights-hub\dbt\venv\Scripts\python.exe
+[0m12:22:07.870586 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m12:22:08.293197 [info ] [MainThread]: Using profiles dir at C:\Users\Anujp\.dbt
+[0m12:22:08.293197 [info ] [MainThread]: Using profiles.yml file at C:\Users\Anujp\.dbt\profiles.yml
+[0m12:22:08.293197 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Anujp\documents\anuj\Data Strategy and AI\ai customer insights hub\week 1 ai customer insights\ai-customer-insights-hub\dbt\dbt_project.yml
+[0m12:22:08.293197 [info ] [MainThread]: adapter type: snowflake
+[0m12:22:08.293197 [info ] [MainThread]: adapter version: 1.9.4
+[0m12:22:08.293197 [info ] [MainThread]: Configuration:
+[0m12:22:08.293197 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:22:08.293197 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:22:08.305521 [info ] [MainThread]: Required dependencies:
+[0m12:22:08.305521 [debug] [MainThread]: Executing "git --help"
+[0m12:22:08.357234 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:22:08.357234 [debug] [MainThread]: STDERR: "b''"
+[0m12:22:08.357234 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:22:08.357234 [info ] [MainThread]: Connection:
+[0m12:22:08.357234 [info ] [MainThread]:   account: vjvfape-uh11888
+[0m12:22:08.357234 [info ] [MainThread]:   user: anujparihar
+[0m12:22:08.357234 [info ] [MainThread]:   database: AI_CSTOMER_INSIGHTS
+[0m12:22:08.365555 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m12:22:08.365555 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m12:22:08.372298 [info ] [MainThread]:   schema: STG
+[0m12:22:08.372298 [info ] [MainThread]:   authenticator: None
+[0m12:22:08.372298 [info ] [MainThread]:   oauth_client_id: None
+[0m12:22:08.381445 [info ] [MainThread]:   query_tag: None
+[0m12:22:08.381445 [info ] [MainThread]:   client_session_keep_alive: False
+[0m12:22:08.381445 [info ] [MainThread]:   host: None
+[0m12:22:08.381445 [info ] [MainThread]:   port: None
+[0m12:22:08.397284 [info ] [MainThread]:   proxy_host: None
+[0m12:22:08.397284 [info ] [MainThread]:   proxy_port: None
+[0m12:22:08.397284 [info ] [MainThread]:   protocol: None
+[0m12:22:08.397284 [info ] [MainThread]:   connect_retries: 1
+[0m12:22:08.413062 [info ] [MainThread]:   connect_timeout: None
+[0m12:22:08.413062 [info ] [MainThread]:   retry_on_database_errors: False
+[0m12:22:08.413062 [info ] [MainThread]:   retry_all: False
+[0m12:22:08.413062 [info ] [MainThread]:   insecure_mode: False
+[0m12:22:08.413062 [info ] [MainThread]:   reuse_connections: True
+[0m12:22:08.431197 [info ] [MainThread]: Registered adapter: snowflake=1.9.4
+[0m12:22:10.892038 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m12:22:19.887171 [debug] [MainThread]: Using snowflake connection "debug"
+[0m12:22:19.887171 [debug] [MainThread]: On debug: select 1 as id
+[0m12:22:19.887171 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:22:22.703417 [debug] [MainThread]: SQL status: SUCCESS 1 in 2.825 seconds
+[0m12:22:22.719338 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:22:22.719338 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:22:22.719338 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Anujp\documents\anuj\Data Strategy and AI\ai customer insights hub\week 1 ai customer insights\ai-customer-insights-hub\dbt\dbt_project.yml> not found
+
+[0m12:22:22.719338 [debug] [MainThread]: Command `dbt debug` failed at 12:22:22.719338 after 15.02 seconds
+[0m12:22:22.719338 [debug] [MainThread]: Connection 'debug' was left open.
+[0m12:22:22.719338 [debug] [MainThread]: On debug: Close
+[0m12:22:22.815990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013CF92BC4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013CF93222D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013CF9322650>]}
+[0m12:22:22.815990 [debug] [MainThread]: Flushing usage events
+[0m12:22:23.786563 [debug] [MainThread]: An error was encountered while trying to flush usage events

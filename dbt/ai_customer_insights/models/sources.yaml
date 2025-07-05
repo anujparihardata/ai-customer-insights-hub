@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AI_CUSTOMER_INSIGHTS     # match your dbt profile
+    schema: RAW                        # where your CSVs were loaded
+    tables:
+      - name: customers
+      - name: orders
+      - name: interactions
